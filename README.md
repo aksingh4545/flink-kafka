@@ -412,4 +412,24 @@ Let me know if you'd like to add:
 
 Good luck with the project!
 
+<h2>Project Screenshots</h2>
+
+```
+<h3>Flink Overview</h3>
+<img src="screenshots/flink_overview.png" alt="Flink Overview" width="100%">
+
+<h3>Flink SQL</h3>
+<img src="screenshots/flink_SQL.png" alt="Flink SQL" width="100%">
+
+<h3>Job Manager</h3>
+<img src="screenshots/job_manager.png" alt="Job Manager" width="100%">
+
+<h3>Task Manager</h3>
+<img src="screenshots/task_manager.png" alt="Task Manager" width="100%">
+
+<h3>Running Job</h3>
+<img src="screenshots/running_job.png" alt="Running Job" width="100%">
+
+<h3>Additional Screenshot</h3>
+<img src="screenshots/Screenshot 2026-02-23 210137.png" alt="Project Screenshot" width="100%">
 
