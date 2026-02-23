@@ -1,5 +1,4 @@
 
-
 # 🚀 Real-Time Stateful Stream Processing  
 
 Apache Flink + Kafka + Docker Compose + Flink SQL
@@ -422,5 +421,6 @@ Good luck with the project!
 
 <h3>Additional Screenshot</h3>
 <img src="screenshots/Screenshot 2026-02-23 210137.png" alt="Project Screenshot" width="100%">
+
 
 
