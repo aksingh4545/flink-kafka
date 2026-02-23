@@ -89,15 +89,10 @@ Goal: demonstrate the combination of **event streaming + stateful processing + u
 ## 🧩 Main Components
 
 | Component       | Purpose                              | Exposed Port |
-
 |-----------------|--------------------------------------|--------------|
-
 | zookeeper       | Kafka coordination                   | 2181         |
-
 | kafka           | Event streaming broker               | 9092         |
-
 | jobmanager      | Flink master (scheduler, UI)         | 8081         |
-
 | taskmanager     | Flink workers (execute operators)    | —            |
 
 ## 📂 Project Structure
@@ -348,17 +343,12 @@ You should see changelog-like output:
 
 ## ⚠️ Common Issues & Fixes
 
-| Symptom                                | Likely Cause                          | Fix / Check                                             |
-
-|----------------------------------------|---------------------------------------|-----------------------------------------------------------------|
-
-| JSON parse error in Flink             | Invalid JSON sent to `shipments`      | Use correct format, check producer messages                     |
-
-| No data in `inventory` topic          | INSERT statement not running          | Re-run the INSERT query in SQL client                           |
-
-| Connection refused to `kafka:9092`    | Wrong bootstrap server name           | Always use `kafka:9092` inside Docker network                   |
-
-| Job fails quickly                     | Missing / wrong table definition      | Check column names & types match exactly                        |
+| Symptom                             | Likely Cause                     | Fix / Check                                      |
+|-------------------------------------|----------------------------------|--------------------------------------------------|
+| JSON parse error in Flink          | Invalid JSON sent to `shipments` | Use correct format, check producer messages      |
+| No data in `inventory` topic       | INSERT statement not running     | Re-run the INSERT query in SQL client            |
+| Connection refused to `kafka:9092` | Wrong bootstrap server name      | Always use `kafka:9092` inside Docker network    |
+| Job fails quickly                  | Missing / wrong table definition | Check column names & types match exactly         |
 
 ## 🎯 Next Steps / Exercises
 
@@ -432,4 +422,5 @@ Good luck with the project!
 
 <h3>Additional Screenshot</h3>
 <img src="screenshots/Screenshot 2026-02-23 210137.png" alt="Project Screenshot" width="100%">
+
 
